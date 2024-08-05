@@ -1,0 +1,31 @@
+1_
+int idade;
+
+Console.WriteLine("qual sua idade");
+idade= Convert.ToInt32(Console.ReadLine());
+
+if (idade <= 12)
+{
+Console.WriteLine("você é criança");
+
+}
+else
+{
+if (idade <= 17)
+{
+Console.WriteLine("você é adolescente");
+
+}
+else
+{
+if (idade <=59)
+{
+Console.WriteLine("você é adulto");
+
+}
+else
+{
+Console.WriteLine("você é idoso");
+}
+}
+}
